@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.20)
 project(Foundation)
 
 add_library(${PROJECT_NAME}
-    world.cpp
+    World.cpp
+    Window.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
