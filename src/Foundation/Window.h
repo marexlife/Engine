@@ -3,7 +3,10 @@
 namespace Engine::Foundation {
 class Window {
 public:
+  void init();
+
 private:
+  
 };
 } // namespace Engine::Foundation
 #endif // ENGINE_FOUNDATION_WINDOW_H

@@ -9,3 +9,9 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(WXWIDGETS)
+
+add_library(wxWidgets)
+
+target_link_directories(wxWidgets PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/wxWidgets
+)
